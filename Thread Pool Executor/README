@@ -1,0 +1,48 @@
+Mihai-Ghioca 321CB
+
+Punctaj local: 135/135p pe teste, 20p pe valgrind.
+
+	Am definit structurile Thread si Task.Am definit structura tip lista generica.
+Pentru stive voi folosi tip lista generica al caror camp info vor puncta catre o
+structura de tip Thread. Pentru cozi, se folosesc tot liste tip generice al caror
+camp info vor pointa catre structura de tip Task.
+	Am facut functii auxiliare pentru lucrul cu cozi.Am ExtrQ pentru extragere,
+IntrQ pentru inserare, IntrQOrd pentru inserare ordonata cu ajutorul unei functii 
+de comparare care face cast pe campurile info din coada implementata cu liste si 
+intoarce 1 daca sunt ordonate conform specificatiilor, -1 daca nu. 
+	Am facut functii auxiliare pentru lucrul cu stive.Am Pop si Push cu 
+eliminarea, respectiv inserarea de la inceputul unei liste.Am si InitS care 
+initializeaza Stiva initiala de thread-uri disponibile.
+	Id-urile disponibile sunt mentinute intr-un vector de frecventa plin cu 1 si 0
+.Daca Id este disponibil la un moment de timp, campul este 0, daca se elibereaza, 
+din 1 devine 0.Daca este folosit este 1.
+	Am facut o functie care insereaza ordonat un task in coada waiting.De fiecare 
+data cand operez pe cozi, folosesc o coada auxiliara daca doresc sa nu modific 
+coada initiala cu ajutorul careia refac coada dupa prelucrarea elementelor din 
+coada( astfel am procedat sa printez elementele fara a se modfica o coada anume,
+sau cand caut un anume task in coada running spre exemplu).
+	Pentru get_task caut in cozile waiting, running, finished si daca il gasesc, 
+se va printa Taskul.
+	Pentru get_thread caut in coada running, daca nu-l gasesc in running, trebuie
+sa fie disponibil si deci, il voi gasi in stiva de threaduri disponibile.
+	Atat ExtrQ, cat si Pop imi elibereaza celula si copiaza intr-o variabila 
+specifica tipului de date inmagazinat(Thread / Task) continutul relevant din 
+aux->info si ii da free.Pentru a dezaloca memoria, trebuie doar sa dezaloc
+stiva de threaduri, coada_waiting, coada_running, coada_finished.
+	Functia run, apeleaza run_aux care executa t unitati de timp, in functie daca
+timp > cuanta sau timp < cuanta (unde t este minimul intre cuanta sau timp).In 
+functia run, pentru cazul in care timpul de rulat este mai mare decat coanta, vom
+distribui timpul in mai multe cuante, fiecare cu run_aux propriu.In cazul in care
+coada running devine vida ( si cu sine si coada waiting ) si inca nu am terminat
+argumentul lui run( este mult mai mare ca perioada de timp, decat a fost necesar),
+surplusul devine 0, necontorizand timpul in care nu ar rula niciun task.
+Functia run calculeaza daca incearca sa ruleze mult mai multe milisecunde decat este
+necesar sa termine toate taskurile si daca argumentul este mai mare decat maxim, atunci
+vom rula numai maxim(considerent folosit la comanda finish).
+	Pentru finish, se verifica continutul cozii run si waiting.Daca run este vida
+si waiting este nevida, in limita thread-urilor disponibile se populeaza coada_run.
+Cat timp coada_run nu este vida ( care va fi alimentata mereu din coada waiting, in
+limita firelor de executie idle ), se calculeaza timpul maxim al tututor taskurilor din
+coada_running si se ruleaza comanda run de timp t = maximul mentionat.La fiecare apel run
+timp adaug intr-o variabila timpul in care a facut run.
+
