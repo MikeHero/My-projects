@@ -1,0 +1,48 @@
+Proiect PA 2021 - Xboard Engine - cyberpunks team
+
+Etapa 1: 
+Engine-ul implementat stie sa mute un pion negru, respectiv un pion alb.Pozitiile acestora sunt hardcodate in functia main.
+
+	Programul primeste comenzi la stdin
+pana la primirea comenzii quit.
+
+
+--------------------------------------------------------------------------------
+
+Comenzi: 
+ - "new":
+ 	Se apeleaza functia initNewGame care 
+ initializeaza cu valori corespunzatoare matricea ca reprezentare a board-ului, si variabilele ce corespund setarile initiale ale jocului.
+
+
+------------------------------------------------------------------------------------
+
+- Userul muta:
+   Cand programul primeste la stdin un string ce reprezinta o mutare trimisa de xboard (ex: "e2e4"), la linia 307 se verifica prin userMoves() daca e o mutare valabila.In caz afirmativ, in functie de culoarea cu care joaca userul, este apelata functia makeMove() cu coordonatele piesei de culoare corespunzatoare culorii cu care joaca userul.
+
+   Functia makeMove actualizeaza matricea board[][], pentru a marca faptul ca userul a facut o mutare, si de a se tine cont pe viitor de aceasta.Mai multe informatii sunt atasate ca si comentarii in cod.
+
+
+---------------------------------------------------------------------------------------
+
+- Engine ul trebuie sa mute:
+   La linia 332 se verifica daca forceMode este 0 si daca este randul engine-ului de a muta.In caz afirmativ, se apeleaza functia makeEngineMove cu coordonatele piesei de culoare corespunzatoare culorii cu care joaca engine-ul.
+
+   Pe scurt, aceasta functie verifica prin functia generateMove() daca exista o mutare valabila pe care piesa (pionul in cazul de fata) o poate face.In caz negativ, da semnal de resign xboard-ului, altfel se updateaza matricea pe acelasi principiu si este trimis catre xboard "move ..." pentru a modifica reprezentarea grafica a tablei.
+
+   generateMove() ia ca parametri pozitiile initiale ale unei piese, si verifica daca exista vreo posibilitate de a muta piesa pe alte coordonate finale.In caz afirmativ, este generata mutarea sub forma de string, iar apoi se apeleaza functia makeMove() in care se actualizeaza matricea board-ului, si apoi este trimis catre xboard semnalul "move string".
+
+
+---------------------------------------------------------------------------------------------
+
+- forceMode = 1
+  In cazul in care xboard-ul se afla in modul Edit Game, xboard-ul va trimite catre engine mutarile facute, iar engine ul implementat va urma instructiuni doar de pe ramura if-ului in cazul caruia este primita o comanda sub forma de mutare.
+
+  Etapa 2
+  Functionalitati
+
+  Stie sa mute fiecare tip de piesa. 
+  In makeEngineMove, se verifica posibilitatea rocadei. In caz afirmativ, se executa rocada. 
+  Apoi se verifica posibilitatea en passant.
+  Dupa aceea, se parcurge toate matricea si cautam o piesa care poate fi mutata legal.
+  

@@ -1,0 +1,78 @@
+A move has been made: b2b4.
+User moved.It's engine's turn! -1
+1 
+A move has been made: a7a5.
+User moved.It's engine's turn! 1
+1 -1 
+A move has been made: a2a4.
+User moved.It's engine's turn! -1
+1 -1 
+A move has been made: a5b4.
+User moved.It's engine's turn! 1
+1 -1 
+A move has been made: a4a5.
+User moved.It's engine's turn! -1
+1 -1 
+A move has been made: a8a6.
+User moved.It's engine's turn! 1
+1 -1 -400 
+A move has been made: d2d4.
+User moved.It's engine's turn! -1
+1 -1 -400 
+A move has been made: a6h6.
+User moved.It's engine's turn! 1
+1 -1 -400 -4 
+A move has been made: a5a6.
+User moved.It's engine's turn! -1
+1 -1 -400 -4 
+A move has been made: b4b3.
+User moved.It's engine's turn! 1
+1 -1 -400 -4 
+A move has been made: a6a7.
+User moved.It's engine's turn! -1
+1 -1 -400 -4 
+A move has been made: b3b2.
+User moved.It's engine's turn! 1
+1 -1 -400 -4 
+n a facut rocada
+move a7a8b
+Engine moved.It's user's turn! -1
+1 -1 -400 -4 
+n a facut rocada
+move a8b7
+A move has been made: a8b7.
+Engine moved.It's user's turn! -1
+1 -1 -400 -4 
+n a facut rocada
+move g8f6
+A move has been made: g8f6.
+Engine moved.It's user's turn! 1
+1 -1 -400 -4 -3 
+A move has been made: c2c4.
+User moved.It's engine's turn! -1
+1 -1 -400 -4 -3 
+A move has been made: c7c5.
+User moved.It's engine's turn! 1
+1 -1 -400 -4 -3 
+A move has been made: d4c5.
+User moved.It's engine's turn! -1
+1 -1 -400 -4 -3 
+A move has been made: b8a6.
+User moved.It's engine's turn! 1
+1 -1 -400 -4 -3 
+A move has been made: c5c6.
+User moved.It's engine's turn! -1
+1 -1 -400 -4 -3 
+A move has been made: b7b5.
+User moved.It's engine's turn! 1
+1 -1 -400 -4 -3 2 
+A move has been made: c6c7.
+User moved.It's engine's turn! -1
+1 -1 -400 -4 -3 2 
+A move has been made: c8b7.
+User moved.It's engine's turn! 1
+1 -1 -400 -4 -3 2 -2 
+n a facut rocada
+move c7c8n
+Engine moved.It's user's turn! -1
+1 -1 -400 -4 -3 2 -2 
