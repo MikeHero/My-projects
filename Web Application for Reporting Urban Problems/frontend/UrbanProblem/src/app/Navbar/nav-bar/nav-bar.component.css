@@ -1,0 +1,43 @@
+/* Positioning the buttons in the top right corner */
+.navbar-buttons {
+  position: absolute;
+  top: 10px; /* Adjust this value as needed */
+  right: 20px; /* Adjust this value as needed */
+}
+
+/* Styling for the buttons */
+.navbar-brand, .nav-link {
+  color: white !important; /* Make text white */
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #cccccc !important; /* Light grey on hover for better distinction */
+}
+
+.btn-outline-light {
+  border-color: #ffffff; /* White border */
+  color: #ffffff; /* White text */
+}
+
+.btn-outline-light:hover {
+  background-color: #ffffff; /* White background */
+  color: #000
+}
+
+/* Styling for the username */
+.username-display {
+  color: #17a2b8; /* Light blue color for distinction */
+  font-weight: bold;
+  font-size: 1.1rem; /* Slightly increase font size */
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+  padding: 5px 10px;
+  border-radius: 5px; /* Rounded corners */
+  display: inline-block;
+  margin-right: 10px; /* Space between username and Logout button */
+}
+
+/* Additional hover effect if you want to make it more interactive */
+.username-display:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff; /* White text on hover */
+}

@@ -1,0 +1,66 @@
+
+<!-- <div class="row">
+    <div class="shadow-lg col-sm-4 p-3">
+        <div class="card">
+            <img class="propImg" src="assets\ProblemList-Icons\prop-1.png">
+            <div class="card-body p-2">
+                <h1>{{Property.Name}}</h1>
+                <h2>{{Property.Type}}</h2>
+                <h3>{{Property.Price}}</h3>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+
+
+<!-- <div class="card">
+  <div class="card-img-wrapper">
+      <img class="card-img-top" [src]="'https://localhost:7242' + problem.ImageURL">
+
+      <ul *ngIf="!hideIcons" class="list-inline text-center member-icons animate">
+          <li class="list-inline-item">
+                <button class="btn btn-primary"routerLink="/problem-detail/{{problem.id}}"><i class="far fa-address-book"></i></button>
+          </li>
+      </ul>
+  </div>
+   <div class="card-body p-1">
+      <h1 class="mb-0"> {{problem.Title}}</h1>
+      in {{problem.Location}}
+      <h6  class="mt-2">{{formattedDate}}
+      <span *ngIf="problem.Solved !== false">Solved</span> | Active</h6>
+
+      <hr class="mt-0 mb-2">
+  
+      <h6 class="mb-0">Priority: <span class="font-highlight">{{problem.Priority}} </span> |
+        Description:  <span class="font-highlight">{{problem.Description}} </span> </h6>
+    </div>
+    
+</div>  -->
+
+<div class="card">
+    <div class="card-img-wrapper">
+        <img class="card-img-top" [src]="'https://localhost:7242' + problem.ImageURL">
+        <!-- <img *ngIf="!problem.ImageURL" class="card-img-top" src="assets/ProblemList-icons/problem_default.jpg"> -->
+        <ul *ngIf="!hideIcons" class="list-inline text-center member-icons animate">
+            <li class="list-inline-item">
+                <button class="btn btn-primary" [routerLink]="['/problem-detail', problem.id]" [queryParams]="{formattedDate: formattedDate}">
+                    <i class="far fa-address-book"></i>
+                </button>
+            </li>
+        </ul>
+    </div>
+     <div class="card-body p-1">
+        <h1 class="mb-0"> {{problem.Title}}</h1>
+        in {{problem.Location}}
+        <h6  class="mt-2">{{formattedDate}}
+        <span *ngIf="problem.Solved !== false">Solved</span> | Active</h6>
+  
+        <hr class="mt-0 mb-2">
+    
+        <h6 class="mb-0">Priority: <span class="font-highlight">{{problem.Priority}} </span> |
+          Description:  <span class="font-highlight">{{problem.Description}} </span> </h6>
+      </div>
+  </div>
+  

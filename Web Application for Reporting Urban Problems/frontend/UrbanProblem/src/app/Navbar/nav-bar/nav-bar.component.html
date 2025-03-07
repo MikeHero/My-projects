@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+  <a class="navbar-brand" href="/"> &nbsp;
+    <i class="sidenav-link-icon" [class]="navData[0].icon"></i>
+    <span class="sidenav-link-text" @fadeInOut>&nbsp;UP
+    </span>
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/problem-list">Display problems</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/add-problem">Add problem</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLinkActive="active" routerLink="/app-feedback">Rate us</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Separate div for Register and Login buttons -->
+  <div class="navbar-buttons">
+    <!-- If user is authenticated, show their name, else show Register/Login buttons -->
+    <div *ngIf="authenticated; else notAuthenticated">
+      <span class="username-display"> {{ userName }}</span>
+      <button class="btn btn-outline-light my-2 my-sm-0 ml-3" (click)="logout()">Logout</button>
+    </div>
+    <ng-template #notAuthenticated>
+      <button class="btn btn-outline-light my-2 my-sm-0" routerLink="/register">Register</button>
+      <button class="btn btn-outline-light my-2 my-sm-0 ml-2" routerLink="/login">Login</button>
+    </ng-template>
+  </div>
+</nav>

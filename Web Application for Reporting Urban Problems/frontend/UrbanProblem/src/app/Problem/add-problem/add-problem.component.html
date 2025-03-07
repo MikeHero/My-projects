@@ -1,0 +1,155 @@
+<!-- <div class="row">
+    <div class="col-6 m-auto">
+    <div class="card m-auto">
+      <div class="card-header">
+        Add a problem
+      </div>
+      <div class="card-body">
+        <form [formGroup]="registrationForm" (ngSubmit)="onSubmit()">
+          <div class="form-group col-12">
+              <label for="name" class="form-label">Responsible Id</label>
+              <input type="text" class="form-control" 
+                formControlName="responsibleId" 
+                >
+                <span *ngIf="userName?.hasError && (userName.touched || userSubmitted)" class="error-block">
+                  Please provide responsible Id
+                </span>
+          </div>
+  
+          <div class="form-group col-12">
+            <label for="email" class="form-label">Category Id</label>
+            <input type="text" class="form-control" formControlName="email">
+            <span *ngIf="!email.valid && email.touched" class="error-block">
+              <span *ngIf="email.hasError('required')">
+                Please provide category Id
+              </span>
+  
+              <span *ngIf="email.hasError('email')">
+                Please provide a valid email format 
+              </span>
+            </span>
+          </div>
+  
+          <div class="form-group col-12">
+            <label for="title" class="form-label">Title</label>
+            <input type="title" class="form-control" formControlName="title">
+            <span *ngIf="!title.valid && title.touched" class="error-block">
+              <span *ngIf="confirmPassword.hasError('required')">
+                Please provide a valid title
+              </span>
+            </span>
+            
+            <span *ngIf="registrationForm.hasError('notmatched') && confirmPassword.valid" class="error-block">
+              Passwords do not match
+            </span>
+          </div>
+
+          <div class="form-group col-12">
+            <label for="location" class="form-label">Location</label>
+            <input type="location" class="form-control" formControlName="location">
+            <span *ngIf="!location.valid && location.touched" class="error-block">
+              <span *ngIf="location.errors?.['required']">
+                Please provide a location
+              </span>
+              <span *ngIf="password.errors?.['minlength']">
+                Location shoud not be lesser than 3 characters
+              </span>
+  
+            </span>
+  
+  
+  
+          </div>
+  
+  
+          <div class="form-group col-12">
+            <label for="mobile" class="form-label">Mobile</label>
+            <input type="text" class="form-control" formControlname="mobile">
+          </div>
+  
+          <div class="form-group col-12">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <button type="reset" class="btn btn-secondary ml-2">Cancel</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    </div>
+  </div> -->
+
+
+
+
+
+  <!-- <div class="container">
+    <h2>Create a Problem</h2>
+    <form [formGroup]="problemForm" (ngSubmit)="onSubmit()">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" id="title" formControlName="title" class="form-control">
+      </div>
+  
+      <div class="form-group">
+        <label for="location">Location</label>
+        <input type="text" id="location" formControlName="location" class="form-control">
+      </div>
+  
+      <div class="form-group">
+        <label for="responsibleId">Responsible ID</label>
+        <input type="number" id="responsibleId" formControlName="responsibleId" class="form-control">
+      </div>
+  
+      <div class="form-group">
+        <label for="categoryId">Category ID</label>
+        <input type="number" id="categoryId" formControlName="categoryId" class="form-control">
+      </div>
+  
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+   -->
+   <div class="container">
+    <div class="content">
+      <h2>Create a Problem</h2>
+      <p> Set the ResponsableId and CategoryId to default value: 1</p>
+      <form [formGroup]="problemForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="title">Title</label>
+          <input type="text" id="title" formControlName="title" class="form-control">
+        </div>
+  
+        <div class="form-group">
+          <label for="location">Location</label>
+          <input type="text" id="location" formControlName="location" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label for="location">Description</label>
+          <input type="text" id="description" formControlName="description" class="form-control">
+        </div>
+  
+        <div class="form-group">
+          <label for="responsibleId">Responsible ID</label>
+          <input type="number" id="responsibleId" formControlName="responsibleId" class="form-control">
+        </div>
+        
+        <div class="form-group">
+          <label for="categoryId">Category ID</label>
+          <input type="number" id="categoryId" formControlName="categoryId" class="form-control">
+        </div>
+  
+        <div class="form-group">
+          <label for="images">Upload Images</label>
+          <input type="file" id="images" (change)="onFileChange($event)" multiple accept=".jpg, .jpeg" class="form-control">
+        </div>
+  
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  
+    <div class="map">
+      <app-title title="Choose Your Address On Map" fontSize="1.6rem"></app-title>
+      <map (coordinatesChanged)="onCoordinatesChanged($event)" ></map>
+    </div>
+  </div>
+  

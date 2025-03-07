@@ -1,0 +1,41 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a; /* Lighter background color */
+    padding: 20px; /* Adjusted padding */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items with space between */
+    height: 60px; /* Adjusted footer height */
+  }
+  
+  .icon {
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  .footer-logo {
+    width: 3rem; /* Scale the image */
+    height: 3rem; /* Scale the image */
+    object-fit: cover;
+    border-radius: 50%; /* Make the image circular */
+  }
+  
+  .fancy-text-container {
+    flex: 1; /* Allow text to take remaining space */
+    display: flex;
+    justify-content: center; /* Center align the text within the container */
+    align-items: center; /* Center align vertically */
+  }
+  
+  .fancy-text {
+    font-size: 24px; /* Adjusted font size */
+    font-weight: bold; /* Adjust as needed */
+    background: linear-gradient(to right, #0056b3 28%, #ffcc00 30%, #ffcc00 61%, #d90000 63%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Great Vibes', cursive; /* Handwriting-like font */
+    margin: 0; /* Remove default margin */
+  }
+  

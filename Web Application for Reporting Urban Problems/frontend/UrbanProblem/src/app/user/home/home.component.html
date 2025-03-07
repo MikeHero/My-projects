@@ -1,0 +1,28 @@
+<div class="container mt-5">
+    <div *ngIf="message.startsWith('Greetings')" class="card text-center">
+      <div class="card-header">
+       Login was successful!
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">{{ message }}</h5>
+        <p class="card-text">We're glad to have you back! Explore the features below to get started.</p>
+  
+        <!-- Quick action buttons -->
+        <div class="d-flex justify-content-center mt-4">
+          <a routerLink="/profile" class="btn btn-primary mx-2">View Profile</a>
+          <a routerLink="/" class="btn btn-secondary mx-2">Check the news</a>
+          <a routerLink="/problem-list" class="btn btn-success mx-2">See current problems</a>
+        </div>
+      </div>
+      <div class="card-footer text-muted">
+        Enjoy your session!
+      </div>
+    </div>
+  
+    <!-- Display message for users who are not logged in -->
+    <div *ngIf="message === 'You are not logged in'" class="alert alert-warning text-center mt-5">
+      <h4>{{ message }}</h4>
+      <p>Please <a routerLink="/login">login</a> or <a routerLink="/register">register</a> to continue.</p>
+    </div>
+  </div>
+  
