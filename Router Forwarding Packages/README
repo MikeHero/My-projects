@@ -1,0 +1,19 @@
+Tema 1 PCom
+	Am implementat forwardarea.
+	Primul pas este ca routerul sa primeasca pachetul.Verific daca pachetul este
+Ipv4, daca nu este fac drop la pachet.Extrag headerul de ethernet si verific 
+daca imi face match pentru tipul de pachet ip.Daca da, extrag headerul de Ip.
+	Odata ce am extras headerul de Ip, verific integritatea pachetului analizand
+checksum-ul.Verific Time-To-Live, daca este mai mic, egal cu 1 ii dau drop ca in
+cerinta.
+	Apoi sa forwardam pachetul mai departe, interoghez tabela de rutare,
+implementand longest prefix match. Dupa ce cunosc adresa next hop, interoghez
+tabela care tine evidenta maparii adresei mac cu cea Ip si avand Ip nexthop,
+obtin adresa mac nexthop(se cauta o intrare cu aceeasi adresa IP).
+	Voi actualiza headerul pachetului, decremend Time to live si recalculand
+checksum-ul pentru pachet.
+	In continuare actualizez header pachet de nivel 2.Se copiaza adresa MAC a
+destinatiei in headerul Ethernet.Copiez Adresa MAC a sursei in headerul de
+Ethernet.
+	La final se trimite pachetul mai departe.
+
