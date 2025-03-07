@@ -1,5 +1,3 @@
-Mihai Ghioca 344C5
-
     In rezolvarea acestei teme m-am folosit de laboratorul de inmultire a matricelor:
 https://ocw.cs.pub.ro/courses/asc/laboratoare/09.
 
