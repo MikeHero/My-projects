@@ -1,0 +1,45 @@
+Mihai Ghioca 321CB
+
+Problema 1
+	Se observa regula de alcatuire a matricei.Se poate observa ca aflarea unui
+element de pe pozitia i, j se poate reduce la urmatoare problema.Impartim
+matricea de dimensiune n x n in 4 submatrice colt stanga sus, colt stanga jos,
+colt dreapta sus si colt dreapta jos.Astfel daca elementul pe care il cautam se
+afla in primul cadran sau al treilea, il putem reduce la cadranul doi, fara sa
+consideram acel negat.In cadranul 2 atat coordonata x si y variaza intre 
+1... n/2 inclusiv unde n/2 este dimensiunea matricea.Indexarea se face de la
+1 la n.De la problema matricei mari unde calculam elementul de pe pozitia x si
+y reducem la o problema mai mica, de la o matrice de n x n la o matrice de
+n/2 x n/2. Pentru a calcula un element din cadranul 4 este suficient sa calculam
+translatarea lui in cadranul 2 ( colt stanga sus ) si, sa negam omologul
+acestuia.Se calculeaza recursiv.
+
+Problema 2
+	Am definit cateva functii auxiliare pentru acest task.Functia nr_aparitii
+calculeaza de cate ori apare un anume caracter intr-un string.Functia valoare
+calculeaza prin efect lateral, frecventa unei anumite litere si dimensiunea
+cuvantului.Functia exista_litera_dominanta determina daca exista cel putin un 
+cuvant dominant.Daca nu exista, intorc -1 pentru ca nu pot realiza un sir con-
+catenat astfel incat sa se respecte conditia frecventa > dimensiune / 2.Avem si
+o functie de comparare pentru qsort, care intoarce valoarea in float pentru 
+frecventa - dimensiunea / 2 .
+	Cand citesc cuvintele analizez ce litere dominante pot sa am.Apoi o iau pe
+cazuri si caut numarul de cuvinte maxim pe care le pot concatena pentru 
+litera_dominanta1 gasita, apoi pentru litera_dominanta2 gasita, apoi pentru 
+litera_dominanta3 gasita etc si intorc maximul dintre ele.Pentru fiecare
+posibila litera dominanta, sortez matricea de cuvinte ( cand citesc cuvintele le
+depozitez intr-o matrice de N - nr maxim de linii si dimensiunea maxima a unui
+cuvant).Sortez aceasta matrice folosind qsort si functia de sortare mentionata
+anterior.Apoi cand timp se respecta regula de frecventa > dimensiunea / 2 adaug
+cuvinte, modificand la fiecare pas frecventa si dimensiunea.Pe baza sortarii, se
+adauga mereu cea mai buna alegerea a unui cuvant de concatenat.
+
+Problema 3
+	pentru problema 3, imi fac o functie auxiliara care imi determina in cate
+operatii ajung la target[i].Apoi fiecare numar din lista mea de cuvinte, are
+atribuita o valoare nr_operatii[i]. (eu l-am numit w[i]).Am observat ca daca
+atribui fiecarui cuvant numarul de operatii si am asociat si corespondentul
+numar de puncte, putem reduce problema la problema rucsacului.Similaritatea
+consta in numarul de puncte, iar in loc de capacitate maxima cum era pentru
+rucsac, avem numar maxim de operatii, iar pentru vectorul de greutate, avem
+vectorul de numar de operatii, numit de mine w.In rest, este problema rucsacului.
