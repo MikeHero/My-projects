@@ -1,0 +1,40 @@
+Mihai Ghioca 331CB.
+	
+	Salut! Task-uri rezolvate: register, login, exit, logout, enter_library, get_book, add_book, delete_book.
+In rezolvarea acestei teme, am pornit de la laboratorul 10 rezolvat in care m-am ghidat dupa ce aspect
+trebuie sa aiba fiecare cerere. Dupa cum putem face login, de exemplu si cum se realizeaza comunicarea
+intre client si server. Avand deja modelul pentru cererea GET, similar s-a facut cererea de DELETE.
+	Am ales biblioteca parson pentru solutia mea in limbajul C, intrucat folosirea acesteia mi s-a parut
+mai intuitiva si mai usor de lucrat cu ea, banzandu-ma pe exemple.
+	Pentru a-mi modela entitatile Utilizator si Carte mi-am definit structuri cu campurile de interes
+mentionate, de exemplu pentru utilizator: username si parola, iar pentru carte: titlu, autor etc. Cand
+vreau sa incarc o resursa pe server, aloc memorie pentru structura, o serializez folosind functiile
+din biblioteca parson si o voi include in cererea HTTP ca un body_data.
+	Ca sa extrag cookie-ul dintr-un raspuns, dupa ce fac login, am analizat cum arata un raspuns la
+carerea mea de login si am obsvat ca informatia de interes, cookie-ul se afla la secventa "connect.sid="
+si tine pana la primul ';'. De aici am extras valoarea pentru cookie.
+	Ca sa extrag statusul se apeleaza functia atoi(), intre primul caracter ' ' si urmatorul caracter ' '.
+In functia check_status am extras codul intors de cererea mea HTTP, acel status si l-am comparat cu rezultat
+asteptat. In caz afirmativ, intorc un output ( Operatia %s s-a executat cu succes, unde %s = operatie). In cazul
+in care rezultatul intors, nu este cel expectat, trebuie sa intorc eroare, utilizandu-ma de functia get_error,
+care se bazeaza pe metodele din biblioteca parson, ca sa extraga valoarea obiectului json de pe campul error.
+	Pentru a observa daca cererea este de tip get/post/delete m-am uitat in fisierul pdf care explica 
+fiecare comanda si am observat ce tip de cerere corespunde fiecarei comenzi. Daca se specifica ca o 
+comanda are nevoie de prompt, executam acest lucru printr-un printf. Variabila de PATH corespunzatoare 
+pentru fiecare comanda era luata din cerinta. Se formateaza un string dupa formatul comenzii dorite. 
+Se deschide un socket pentru a comunica cu serverul. Variabila "message" este stringul formatat care este
+trimis si se primeste in char* response raspunsul in formatul unui mesaj HTTP de la server.
+Daca imi iau timeout, redeschid alt socket, retrimit mesajul prin acesta si primesc raspunsul.
+
+Pentru testare:
+	Se ruleaza in terminal comenzile: register, login, exit, logout etc.
+
+
+
+
+
+
+
+
+
+
