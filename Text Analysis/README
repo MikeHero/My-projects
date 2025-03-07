@@ -1,0 +1,46 @@
+Analyzing Text Data
+
+	In fisierul tema.h am declarat functiile majore, de importanta in celelalte fisiere, pe care sa le apelez si in main
+si am explicat scopul acestora.
+	Am initializat tabela hash folosindu-ma de codul din laborator.Campul vector din tabela hash este un vector al
+carui index variaza intre [0; 25]
+	Pentru functia hash, am tratat 2 cazuri, pentru cuvintele care incep cu cu litera mare si litera mica.Din cele cu 
+litera mare, pentru a se obtine codul hash am scazut 'A', iar pentru cele cu litera mica am scazut 'a'.
+	S-au folosit urmatoarele structuri in realizarea sarcinilor acestei teme: Avem o structura de tip TCuv constituita
+din un int pentru numarul de aparitii ale acelui cuvant si un char* pentru a stoca numele cuvantului.Avem si un tip de
+structura TLG (tip lista generica) care reprezinta listele verticale, cele in care se afla cuvintele ordonate 
+descrescator dupa numarul de aparitii si lexicografic.Campul info al acestor celule pointeaza catre structuri de tipul
+TCuv.Mai avem o structura TLI (tip lista index) care este o lista ordonata crescator dupa dimensiunea cuvintelor din ea.
+O celula de tip TLI contine un int care exprima dimensiunea cuvintelor(index), un camp urmator catre o alta structura 
+TLI si un pointer catre un TLG in care se regasesc toate cuvintele de dimensiunea indexului(=lungimea).Am construit
+functii de alocare celula pentru ambele tipuri de liste cu mentiunea ca atunci cand se creeaza o celula de tip TLI, 
+aceasta contine obligatoriu si un cuvant de tip TLG asa ca functia AlocCelulaIndex apeleaza si AlocCelulaG.S-a verificat
+rezultatul intors de alocari.
+	Cat timp am ceva care sa poata fi citit din fisier, citesc linie cu linie.Se executa fie insert, fie print.Prelucrez
+cuvintele din comenzi cu un strtok.
+	Pentru comanda insert, se citeste cuvantul si ii aplicam functia hash pentru a determina pe ce pozitie din vectorul
+tabelei hash este posibil sa-l gasim.
+	Aflata pozitia, parcurgem lista TLI si analizam daca gasim deja creata o celula de tip TLI cu indexul(dimensiunea)
+corespunzator cuvantului pe care ne dorim sa-l adaugam.Daca gasim deja existenta, sarcina devine de a cauta cuvantul in
+sublista verticala(raportandu-ne la desenul din pdf ) de tip TLG, iar daca nu-l gasim, il inseram ordonat dupa ce ii 
+cream o celula TLG.Daca il gasim, in schimb, incrementam frecventa de aparite a cuvantului, extrag celula din lista TLG 
+(cu refacerea legaturilor), si reinserez celula folosindu-ma de o functie de inserare ordonata intr-un TLG si a carei 
+relatie de ordine este determinata de o functie.In cazul extragerii si reinserarii celulei unde se pluseaza 1 la 
+frecventa, nu este nevoie sa mai alocam memorie suplimentara. 
+	In cazul in care pentru cuvantul pe care ne dorim sa-l adaugam, pe pozitia din vector corespunzatoare literei cu
+care acesta incepe, nu gasim o celula TLI atunci vom crea lista TLI cu indexul egal cu dimensiunea cuvantului de 
+adaugat, ii vom asocia si o lista TLG care contine celula cu al nostru cuvant de adaugat cu frecventa 1 (pentru ca abia
+l-am creat, deci frecventa este 1).Inserarea noii celule de tip TLI se va face ordonat in Lista TLI spre care puncteaza
+campul vector al tabelei hash, in ordinea crescatoare a lungimii cuvintelor din ea.
+	Pentru print am o functie care afiseaza un element al unei liste de tip TLG, o functie care afiseaza o intrega lista
+de tip TLG si o functie care afiseaza o intreaga lista de tip TLI impreuna cu sublista TLG de cuvinte.Sunt si cateva
+functii f1, f2, f3 care intorc 1 daca mai urmeaza un element de printat sau 0 daca nu.Sunt folosite doar pentru cerinta 
+de printare cand ne dorim printarea cuvintelor cu maxim n aparitii.Folosirea lor ajuta la respectarea formatului de 
+output.Functia f1 intoarce 1 daca mai sunt cuvinte care pot fi printate intr-o lista de tip TLG, f2 si f3 pentru o lista
+de tip TLI.Iar f3, f2 se folosesc de rezultatul intors de f1, pe baza considerentului ca o lista TLI inglobeaza si o 
+lista TLG.
+	S-au folosit si functii de eliberare a memoriei, mai intai,a la nivel de camp al listei generice, pentru structura 
+TCuv, apoi pentru o intreaga celula TLG, apoi pentru o lista TLG care se foloseste de functia de eliberare pentru o 
+celula si TCuv al campului info al celulei.Avem si o functie care elibereaza o lista de tip TLI cat si lista TLG
+aferenta acesteia.Se foloseste aceasta functie pe fiecare pozitie din vectorul tabelei hash pentru eliberarea memoriei.
+Apoi se elibereaza si campul vector al tabelei hash, apoi tabela hash in sine.
