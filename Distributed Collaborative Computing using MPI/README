@@ -1,0 +1,27 @@
+Mihai Ghioca 331CB
+
+	Salut!Am pornit plecand de la scheletul de cod din laboratorul 8, exercitiul 
+1, unde aveam de lucrat cu o topologie tip inel.Pentru a deveni mai lizibil 
+codul, am pus comentarii la fiecare 10-20 randuri in care am explicat fiecare
+etapa din logica descrisa mai jos.
+	Pentru cerinta 1) am pornit cu parsarea de informatii dupa urmatoarea
+structura 0 -> 3 -> 2 -> 1, iar apoi 1 -> 2 -> 3 -> 0. Comunicator 0 ii spune
+lui 3 tot ce stie.Comunicator 3 trimite catre 2 informatia primita de la 0, dar
+si pe a sa.Comunicator 2 trimite catre 1 informatia primita de la comunicator 0,
+de la comunicator 3, dar si pe a sa.Astfel Comunicator 1 este primul comunicator
+care obtine topologia completa.Comunicator 1, trimite catre 2 informatii despre
+Comunicator 1 si deci, ajunge si 2 sa aiba topologia completa.Comunicator 2
+trimite catre 3 informatii despre 1 si 2 si ajunge si 3 sa fie omniscient.
+Analog, 3 trimite catre 0 informatii de la 1, 2, dar si despre sine si in cele
+din urma toti comunicatorii cunosc informatii despre toti comunicatorii.Fiecare
+proces are cate un vector0, vector1, vector2, vector3 in care tine o evidenta cu
+Coordonatori-Workeri si o variabila lungime_vector1, lungime_vector2...
+lungime_vector4.Acestea au rol in redarea topologiei in momentul in care devine
+cunoscuta de fiecare proces.Am o functie care imi afiseaza topologia cunoscuta
+de catre fiecare proces.
+	Pentru task 2 am observat pe forum ca se accepta: coordonator0 sa trimita
+vectorul catre ceilalti coordonatori 0->3->2->1.Pe baza formulei din laborator1
+am impartit worlkload-ul la fiecare worker unde ID = numprocs - 4 
+( cei 4 coordonatori initiali).Fiecare worker isi executa calculele.Si le trimite 
+la Coordonatorul lui.Operatia de trimitere a vectorilor partiali calculati are loc 
+in sensul 1->2->3->0. Vectorul va fi completat in Coordonator0 care il si afiseaza.
