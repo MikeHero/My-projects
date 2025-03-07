@@ -1,0 +1,12 @@
+Mihai Ghioca 331CB
+
+	Salut! Pentru rezolvarea taskurilor cu stringuri am folosit
+man strcpy si analog pentru restul de functii. Am verificat semnatura 
+si return value. Pentru restul de functii am folosit man fstat. 
+Am vazut ce intoarce, am vazut semnatura. Pentru cele mai putin intuitive
+unde nu a fost suficient sa dam un syscall cu nume similar cu al functiei,
+sa zicem ca daca < 0 rezultatul, errno = -rezultat si return -1 si in caz
+de succes return 0, pentru aceste situatii atipice, am pornit de la example concrete,
+deja existente, insa in rest, functiile cerute au avut o simetrie in implementare, doar apel de
+sistem si return. Pentru cele mai laborioase, acolo am vazut modele, exemple 
+in manual.
