@@ -1,0 +1,21 @@
+.date-time-container {
+    padding: 10px;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px; /* Rounded corners */
+    z-index: 1000; /* Ensure it's above other content if necessary */
+  }
+  
+  .date-time-container p {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .date-time-container .date-time {
+    font-size: 1em;
+    color: #0b0b0a;
+  }
+  
