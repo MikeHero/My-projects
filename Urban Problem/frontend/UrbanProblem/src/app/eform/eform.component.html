@@ -1,0 +1,62 @@
+<form [formGroup]="formular" (ngSubmit)="onSubmit()">
+    
+    <div class="form-group">
+      <label for="nume">Nume</label>
+      <input formControlName="nume" type="text" id="nume" maxlength="50" />
+      <div *ngIf="formular.get('nume')?.invalid && formular.get('nume')?.touched">
+        <small *ngIf="formular.get('nume')?.errors?.['required']">Numele este obligatoriu</small>
+        <small *ngIf="formular.get('nume')?.errors?.['maxlength']">
+          Numele nu poate depăși 50 de caractere
+        </small>
+      </div>
+    </div>
+  
+    <div class="form-group">
+      <label for="judet">Judet</label>
+      <input formControlName="judet" type="text" id="judet" />
+    </div>
+  
+    <div class="form-group">
+      <label for="localitate">Localitate</label>
+      <input formControlName="localitate" type="text" id="localitate" />
+    </div>
+  
+    <div class="form-group">
+      <label for="cnp">CNP</label>
+      <input formControlName="cnp" type="text" id="cnp" />
+    </div>
+  
+    <div class="form-group">
+      <label for="salariuBrut">Salariu Brut</label>
+      <input formControlName="salariuBrut" type="number" id="salariuBrut" (input)="onSalariuBrutChange()" />
+    </div>
+  
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input formControlName="email" type="email" id="email" />
+    </div>
+  
+    <div class="form-group">
+      <label for="numarTelefon">Număr telefon</label>
+      <input formControlName="numarTelefon" type="text" id="numarTelefon" />
+    </div>
+  
+    <div class="form-group">
+      <label for="impozit">Impozit</label>
+      <input formControlName="impozit" type="text" id="impozit" [disabled]="true" />
+    </div>
+
+    <div class="form-group">
+      <label for="ibanBeneficiar">IBAN Beneficiar</label>
+      <input formControlName="ibanBeneficiar" type="text" id="ibanBeneficiar" maxlength="10" />
+      <div *ngIf="formular.get('ibanBeneficiar')?.invalid && formular.get('ibanBeneficiar')?.touched">
+        <small *ngIf="formular.get('ibanBeneficiar')?.errors?.['required']">IBAN Beneficiar is required</small>
+        <small *ngIf="formular.get('ibanBeneficiar')?.errors?.['minlength'] || formular.get('ibanBeneficiar')?.errors?.['maxlength']">
+          IBAN Beneficiar must be exactly 10 characters
+        </small>
+      </div>
+    </div>
+  
+    <button type="submit" [disabled]="!formular.valid">Submit</button>
+  </form>
+  

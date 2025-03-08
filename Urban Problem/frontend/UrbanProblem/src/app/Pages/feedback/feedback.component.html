@@ -1,0 +1,49 @@
+<h1 style="text-align: center; font-family: Arial, sans-serif; color: #0077b6;">Feedback Form</h1>
+
+<form [formGroup]="formGroup" (ngSubmit)="onSubmit()" style="max-width: 600px; margin: 0 auto; font-family: Arial, sans-serif; background-color: #e0f7fa; padding: 20px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+
+  <label for="sugestion" style="font-weight: bold; margin-bottom: 8px; color: #023e8a;">Suggestion: </label>
+  <input id="sugestion" formControlName="sugestion" type="text" style="width: 100%; padding: 10px; margin-top: 5px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #90e0ef;">
+  <div *ngIf="formGroup.controls['sugestion'].invalid && formGroup.controls['sugestion'].touched" style="color: #d90429; font-size: 12px;">
+    Suggestion is required
+  </div>
+
+  <div>
+    <label for="ageGroup" style="font-weight: bold; margin-bottom: 8px; color: #023e8a;">Age Group</label>
+    <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+      <label><input id="18-20" type="radio" formControlName="ageGroup" value="18-20" style="accent-color: #0077b6;"> 18-20</label>
+      <label><input id="21-30" type="radio" formControlName="ageGroup" value="21-30" style="accent-color: #0077b6;"> 21-30</label>
+      <label><input id="31-40" type="radio" formControlName="ageGroup" value="31-40" style="accent-color: #0077b6;"> 31-40</label>
+      <label><input id="40+" type="radio" formControlName="ageGroup" value="40+" style="accent-color: #0077b6;"> 40+</label>
+    </div>
+    <div *ngIf="formGroup.controls['ageGroup'].invalid && formGroup.controls['ageGroup'].touched" style="color: #d90429; font-size: 12px;">
+      Age Group is required
+    </div>
+  </div>
+
+  <label for="grade" style="font-weight: bold; margin-bottom: 8px; color: #023e8a;">Grade: </label> 
+  <select id="grade" formControlName="grade" style="width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 4px; border: 1px solid #90e0ef;">
+    <option value="0" disabled>Select a grade</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+  </select>
+  <div *ngIf="formGroup.controls['grade'].invalid && formGroup.controls['grade'].touched" style="color: #d90429; font-size: 12px;">
+    Please select a grade between 1 and 5
+  </div>
+
+  <div style="margin-top: 15px;">
+    <label style="font-weight: bold; color: #023e8a;">Do you accept the terms and conditions?</label>
+    <div style="margin-top: 10px;">
+      <label><input type="checkbox" formControlName="agreement" style="accent-color: #0077b6;"> I Agree</label>
+    </div>
+    <div *ngIf="formGroup.controls['agreement'].invalid && formGroup.controls['agreement'].touched" style="color: #d90429; font-size: 12px;">
+      You must accept the terms and conditions
+    </div>
+  </div>
+
+  <button type="submit" [disabled]="formGroup.invalid" style="margin-top: 20px; width: 100%; padding: 12px; background-color: #0077b6; color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 16px;">Submit</button>
+  
+</form>

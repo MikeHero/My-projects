@@ -1,0 +1,221 @@
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\appsettings.json
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\UrbanProblem.exe
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\UrbanProblem.deps.json
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\UrbanProblem.runtimeconfig.json
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\UrbanProblem.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\UrbanProblem.pdb
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Humanizer.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\UrbanProblem.csproj.AssemblyReference.cache
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\UrbanProblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\UrbanProblem.AssemblyInfoInputs.cache
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\UrbanProblem.AssemblyInfo.cs
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\UrbanProblem.csproj.CoreCompileInputs.cache
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\UrbanProblem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\UrbanProblem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\staticwebassets\msbuild.UrbanProblem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\staticwebassets\msbuild.build.UrbanProblem.props
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.UrbanProblem.props
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.UrbanProblem.props
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\scopedcss\bundle\UrbanProblem.styles.css
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\UrbanPro.DCD6EF3B.Up2Date
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\UrbanProblem.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\refint\UrbanProblem.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\UrbanProblem.pdb
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\UrbanProblem.genruntimeconfig.cache
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\obj\Debug\net6.0\ref\UrbanProblem.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\NightGuy\source\repos\UrbanProblem\UrbanProblem\bin\Debug\net6.0\UrbanProblem.staticwebassets.runtime.json
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\appsettings.json
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\UrbanProblem.staticwebassets.runtime.json
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\UrbanProblem.exe
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\UrbanProblem.deps.json
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\UrbanProblem.runtimeconfig.json
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\UrbanProblem.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\UrbanProblem.pdb
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Humanizer.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.csproj.AssemblyReference.cache
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.AssemblyInfoInputs.cache
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.AssemblyInfo.cs
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.csproj.CoreCompileInputs.cache
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets\msbuild.UrbanProblem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets\msbuild.build.UrbanProblem.props
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.UrbanProblem.props
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.UrbanProblem.props
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\scopedcss\bundle\UrbanProblem.styles.css
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\UrbanPro.DCD6EF3B.Up2Date
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\refint\UrbanProblem.dll
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.pdb
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.genruntimeconfig.cache
+C:\Users\NightGuy\Desktop\we_are\backend\UrbanProblem\obj\Debug\net6.0\ref\UrbanProblem.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\appsettings.json
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\UrbanProblem.staticwebassets.runtime.json
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\UrbanProblem.staticwebassets.endpoints.json
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\UrbanProblem.exe
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\UrbanProblem.deps.json
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\UrbanProblem.runtimeconfig.json
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\UrbanProblem.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\UrbanProblem.pdb
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\BCrypt.Net-Next.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Humanizer.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.csproj.AssemblyReference.cache
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.AssemblyInfoInputs.cache
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.AssemblyInfo.cs
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.csproj.CoreCompileInputs.cache
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.sourcelink.json
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\scopedcss\bundle\UrbanProblem.styles.css
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets\msbuild.UrbanProblem.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets\msbuild.UrbanProblem.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets\msbuild.build.UrbanProblem.props
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.UrbanProblem.props
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.UrbanProblem.props
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\UrbanPro.DCD6EF3B.Up2Date
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\refint\UrbanProblem.dll
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.pdb
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\UrbanProblem.genruntimeconfig.cache
+C:\Users\NightGuy\Desktop\Cod\My-projects\Web Application for Reporting Urban Problems\backend\UrbanProblem\obj\Debug\net6.0\ref\UrbanProblem.dll
