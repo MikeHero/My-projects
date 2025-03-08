@@ -1,0 +1,43 @@
+	Salut! Am adaugat cat mai multe comentarii in cod ca sa fie
+cat mai usor inteligibil si as dori sa precizez ca functia calloc
+este similara cu cea de malloc, cu diferenta doar la pragul MMAP_THRESHOLD
+vs PAGE_SIZE si de mentionat ca functia calloc inainte sa intoarca pointer 
+catre zona de memorie, o sa faca memset cu 0, sa zeroizeze zona de memorie 
+intoarsa.
+
+	In implementarea temei am facut malloc, calloc si free.
+Se va mentine un pointer catre inceputul listei simplu inlantuite,
+L, un pointer catre ultima celula adugata, ultim.
+	
+	1) os_malloc
+	La size-ul pe care il adaugam, trebuie sa adaugam si dimensiune
+structura si un eventual padding ca sa devina multiplu de 8. Dupa ce
+ce am determinat cat trebuie sa adaugam, avem 2 posibilitati, fie
+adaugam memorie cu mmap, fie cu sbrk - asta in cazul in care trebuie
+sa adaugam o celula noua de memorie in lista. Inainte sa cautam daca
+exista o celula de lista cu status free, unde sa putem mapa zona de 
+memorie curenta, incepem procesul de coalescing, caz in care, daca 
+avem 2 zone adiacente de memorie cu status = STATUS_FREE, le fuzionam,
+le adaugam size-urile, si adaugam si overhead-ul ocupat de al doilea struct.
+(noul size = struct1->size + struct2->size + sizeof(struct), ultimul termen
+fiind dimensiunea structurii, adica 24 de octeti). Apoi iteram prin lista
+si incercam sa gasim o celula de memorie, suficient de incapatoare, cu status
+= STATUS_FREE, astfel incat sa putem depozita memoria noastra curenta. Daca
+e mai mare decat avem noi nevoie, il fragmentam, dupa ce verificam potentialul
+de a mai incapea inca o structura imediat dupa cea curenta. Daca nu incape, nu
+mai fragmentam, dar tot depozitam, in cazul in care incape. Daca dupa ce am
+iterat prin lista, nu s-a gasit o celula unde sa il putem plasa, atunci mergem
+la ultima celula din lista pentru care s-a apelat brk si vedem daca are status free.
+Daca are status free, atunci o putem extinde, apeland iar sbrk si extinderea va avea
+loc in prelungirea blocului de memorie curent. Daca nu putem sa extindem nici ultimul
+bloc alocat cu sbrk(), atunci facem un nou apel sbrk() si o noua celula in lista
+care va modela noua zona de memorie.
+	
+	2) os_calloc
+	Analog cu malloc.
+	
+	3) os_free
+	Aici am avut in vedere, dupa ce am primit pointer catre zona de memorie care
+trebuie dealocata, sa ii verific statusul, sa vad daca a fost obtinuta cu mmap sau
+daca a fost generata cu sbrk. Daca a fost cu mmap, ii dau munmap, daca a fost cu sbrk,
+este suficient doar sa setez valoarea campului status din structura la STATUS_FREE. 
