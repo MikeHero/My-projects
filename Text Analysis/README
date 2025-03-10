@@ -16,7 +16,7 @@ TLI si un pointer catre un TLG in care se regasesc toate cuvintele de dimensiune
 functii de alocare celula pentru ambele tipuri de liste cu mentiunea ca atunci cand se creeaza o celula de tip TLI, 
 aceasta contine obligatoriu si un cuvant de tip TLG asa ca functia AlocCelulaIndex apeleaza si AlocCelulaG. S-a verificat
 rezultatul intors de alocari.
-	Cat timp am ceva care sa poata fi citit din fisier, citesc linie cu linie.Se executa fie insert, fie print. Prelucrez
+	Cat timp am ceva care sa poata fi citit din fisier, citesc linie cu linie. Se executa fie insert, fie print. Prelucrez
 cuvintele din comenzi cu un strtok.
 	Pentru comanda insert, se citeste cuvantul si ii aplicam functia hash pentru a determina pe ce pozitie din vectorul
 tabelei hash este posibil sa-l gasim.
