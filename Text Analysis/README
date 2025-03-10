@@ -37,7 +37,7 @@ de tip TLG si o functie care afiseaza o intreaga lista de tip TLI impreuna cu su
 functii f1, f2, f3 care intorc 1 daca mai urmeaza un element de printat sau 0 daca nu. Sunt folosite doar pentru cerinta 
 de printare cand ne dorim printarea cuvintelor cu maxim n aparitii. Folosirea lor ajuta la respectarea formatului de 
 output. Functia f1 intoarce 1 daca mai sunt cuvinte care pot fi printate intr-o lista de tip TLG, f2 si f3 pentru o lista
-de tip TLI.Iar f3, f2 se folosesc de rezultatul intors de f1, pe baza considerentului ca o lista TLI inglobeaza si o 
+de tip TLI. Iar f3, f2 se folosesc de rezultatul intors de f1, pe baza considerentului ca o lista TLI inglobeaza si o 
 lista TLG.
 	S-au folosit si functii de eliberare a memoriei, mai intai, a la nivel de camp al listei generice, pentru structura 
 TCuv, apoi pentru o intreaga celula TLG, apoi pentru o lista TLG care se foloseste de functia de eliberare pentru o 
