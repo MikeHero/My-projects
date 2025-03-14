@@ -1,4 +1,4 @@
-	Am definit structurile Thread si Task.Am definit structura tip lista generica.
+	Am definit structurile Thread si Task. Am definit structura tip lista generica.
 Pentru stive voi folosi tip lista generica al caror camp info vor puncta catre o
 structura de tip Thread. Pentru cozi, se folosesc tot liste tip generice al caror
 camp info vor pointa catre structura de tip Task.
