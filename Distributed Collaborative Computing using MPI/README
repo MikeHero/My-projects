@@ -1,3 +1,12 @@
+Distributed Collaborative Computing using MPI
+
+	The programming language used was C/C++. This is a specific software for a distributed
+system formed of clusters of workers and the coordinators of the clusters are 
+communicating using a ring topology.
+
+
+----------------------------------------------------------------------------------------
+
 	Salut! Am pornit plecand de la scheletul de cod din laboratorul 8, exercitiul 
 1, unde aveam de lucrat cu o topologie tip inel. Pentru a deveni mai lizibil 
 codul, am pus comentarii la fiecare 10-20 randuri in care am explicat fiecare
