@@ -1,4 +1,11 @@
-// Implementing the DataPlane for a router
+Router Forwarding Packages
+
+	The programming language that I used was C/C++. The goal of this project
+was to implement the dataplane of a router along several functions that a router
+is designed to perform.
+
+
+-----------------------------------------------------------------------------------
 
 	Am implementat forwardarea.
 	Primul pas este ca routerul sa primeasca pachetul.Verific daca pachetul este
@@ -16,5 +23,5 @@ checksum-ul pentru pachet.
 	In continuare actualizez header pachet de nivel 2.Se copiaza adresa MAC a
 destinatiei in headerul Ethernet.Copiez Adresa MAC a sursei in headerul de
 Ethernet.
-	La final se trimite pachetul mai departe.
+	La final se trimite pachetul mai departe catre next hop.
 
