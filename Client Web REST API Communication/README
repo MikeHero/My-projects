@@ -1,6 +1,6 @@
 Web Client using REST API Communication 
 
-This software is coded in C/C++. It resembles a client - server web application architecture. 
+	This software is coded in C/C++. It resembles a client - server web application architecture. 
 I implemented the HTTP methods, I operated with data in the json format using REST API interactions.
 
 ----------------------------------------------------------------------------------------------------------------
