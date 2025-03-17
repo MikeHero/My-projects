@@ -1,3 +1,11 @@
+Map-Reduce Pthreads
+
+This program was made in C/C++. The application was designed to function as a multithreading program.
+Its purpose was to simulate the Map-Reduce model used by Google for big ammounts of data.
+
+
+-----------------------------------------------------------------------------------------------------
+
 	Salut! In rezolvarea temei am declarat ca un vector de pointeri catre
 fisierele din care fac citirea, un vector de liste de elemente de tip long long(am vazut numere 
 mari in teste) unde fiecare thread de tip Map poate sa adauge un numar care este putere la a doua, 
