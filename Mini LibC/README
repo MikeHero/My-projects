@@ -1,3 +1,13 @@
+Mini LibC
+
+	This program is written in C. It is a free standing implementation 
+which does not use any outside library calls. It ensures the string management,
+basic memory support and low-level input / output operations and it provides
+the syscall interface in Linux. 
+
+
+-------------------------------------------------------------------------------
+
 	Salut! Aceasta este prima tema in cadrul materiei Sisteme de Operare
 unde am simulat apelurile de sistem efectuate de Lib C.
 
