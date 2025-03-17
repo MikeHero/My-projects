@@ -1,3 +1,11 @@
+Algorithms Design
+
+	The code for this program is written in C++. The core of the project was
+to find situational problem solving strategies like divide et impera, greedy and
+dynamic programming. 
+
+
+-----------------------------------------------------------------------------------
 
 Problema 1 - Tabele Walsh ( Divide Et Impera )
 	Se observa regula de alcatuire a matricei. Se poate observa ca aflarea unui
