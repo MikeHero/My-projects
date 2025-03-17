@@ -1,5 +1,12 @@
+Multi-threaded Python Server for Asynchronous Requests
+	
+	This software was coded in Python. It is an implementation of a server which runs on a thread pool
+system to facilitate the requests of multiple users in the same time, based on preprocessing the "csv" 
+format data with the help of the Pandas library.
 
-Explicație pentru soluția aleasă:
+
+-----------------------------------------------------------------------------------------------------------
+
 	Salut! M-am folosit de pandas ca sa citesc continutul fisierului csv. La initializare se verifica 
 daca exista directorul results, daca nu va fi creat. Pe forum s-a specificat ca checkerul va avea 
 variabila de mediu, daca nu vom folosi puterea de paralelizare a masinii gazda. Ma folosesc de Queue care
