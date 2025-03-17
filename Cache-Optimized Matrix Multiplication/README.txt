@@ -1,3 +1,9 @@
+The code of this program is written in C. It solves a High-Performance Computing problem regarding the bottleneck. 
+The purpose of this software was to use efficient memory optimization techniques to increase the cache hit ratio 
+in order to improve the execution speed. 
+
+-------------------------------------------------------------------------------------------------------------------
+
     In rezolvarea acestei teme m-am folosit de laboratorul de inmultire a matricelor:
 https://ocw.cs.pub.ro/courses/asc/laboratoare/09.
 
