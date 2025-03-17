@@ -1,3 +1,12 @@
+Thread Pool Executor
+
+	This software was built using C. It features a basic scheduler for a thread pool
+based on a priority queue to store the active and waiting tasks. The stack and queue 
+operations are defined using generic lists.
+
+
+------------------------------------------------------------------------------------------
+
 	Am definit structurile Thread si Task. Am definit structura tip lista generica.
 Pentru stive voi folosi tip lista generica al caror camp info vor puncta catre o
 structura de tip Thread. Pentru cozi, se folosesc tot liste tip generice al caror
