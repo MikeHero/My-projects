@@ -1,4 +1,10 @@
-Analyzing Text Data
+Text Analysis
+
+	The project was developed using C. I defined a specific implementation for a hash table data structure using generic
+simple linked lists. 
+
+
+-----------------------------------------------------------------------------------------------------------------------------
 
 	In fisierul tema.h am declarat functiile majore, de importanta in celelalte fisiere, pe care sa le apelez si in main
 si am explicat scopul acestora.
