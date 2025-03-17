@@ -1,5 +1,10 @@
 Implementing a Web Client using REST API Communication 
-	
+
+This software is coded in C/C++. It resembles a client - server web application architecture. 
+I implemented the HTTP methods, I operated with data in the json format using REST API interactions.
+
+----------------------------------------------------------------------------------------------------------------
+
 	Salut! Task-uri rezolvate: register, login, exit, logout, enter_library, get_book, add_book, delete_book.
 In rezolvarea acestei teme, am pornit de la laboratorul 10 rezolvat in care m-am ghidat dupa ce aspect
 trebuie sa aiba fiecare cerere. Dupa cum putem face login, de exemplu si cum se realizeaza comunicarea
