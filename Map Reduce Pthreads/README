@@ -1,7 +1,7 @@
 Map-Reduce Pthreads
 
-	This program was made in C/C++. The application was designed to function as a multithreading program.
-Its purpose was to simulate the Map-Reduce model used by Google for big ammounts of data.
+	This program was made in C/C++. The application was designed to function as a multithreading
+program. Its purpose was to simulate the Map-Reduce model used by Google for big ammounts of data.
 
 
 -----------------------------------------------------------------------------------------------------
