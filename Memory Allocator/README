@@ -1,3 +1,14 @@
+Memory Allocator
+
+	The code of this program is written in C. The objective was to build a 
+minimalistic memory allocator that can be used to manually manage virtual memory,
+to keep the data aligned, to keep track of the memory blocks and to reuse the 
+freed blocks. The functionality accounts for explicit allocation, reallocation 
+and initialization of the memory. 
+
+
+------------------------------------------------------------------------------------
+
 	Salut! Am adaugat cat mai multe comentarii in cod ca sa fie
 cat mai usor inteligibil si as dori sa precizez ca functia calloc
 este similara cu cea de malloc, cu diferenta doar la pragul MMAP_THRESHOLD
