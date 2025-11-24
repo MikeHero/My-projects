@@ -1,7 +1,7 @@
 Multi-threaded Python Server for Asynchronous Requests
 	
 	This software was coded in Python. It is an implementation of a server which runs on a thread pool
-system to facilitate the requests of multiple users in the same time, based on preprocessing the "csv" 
+system to facilitate the requests of multiple users at the same time, based on preprocessing the "csv" 
 format data with the help of the Pandas library.
 
 
@@ -29,3 +29,4 @@ curl -X POST   http://localhost:5000/api/best5   -H 'Content-Type: application/j
 
 curl -X GET   http://localhost:5000/api/get_results/1
 {"data":{"Arkansas":32.99516129032258,"District of Columbia":30.746875,"Kentucky":33.071641791044776,"Missouri":32.76268656716418,"Vermont":33.118181818181824},"status":"done"}
+
